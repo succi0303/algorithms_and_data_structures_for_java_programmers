@@ -8,7 +8,7 @@ public class MyKey {
 
     public boolean equals(Object o)
     {
-        if (! (o instanceOf MyKey)) {
+        if (! (o instanceof MyKey)) {
             return false;
         }
         MyKey k = (MyKey)o;
